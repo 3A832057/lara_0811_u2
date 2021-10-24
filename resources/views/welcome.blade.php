@@ -34,6 +34,7 @@
                         @endif
                     @endauth
                 </div>
+
             @endif
 
             <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
@@ -57,6 +58,7 @@
                                 <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
                                     Laravel has wonderful, thorough documentation covering every aspect of the framework. Whether you are new to the framework or have previous experience with Laravel, we recommend reading all of the documentation from beginning to end.
                                 </div>
+                                <a href="{{route('hello.index')}}">Hello</a><a href="{{route('hello.index',['name'=>'tom'])}}">Hello2</a><a href="/hello/tom">Hello3</a>
                             </div>
                         </div>
 
